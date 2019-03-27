@@ -63,6 +63,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+h1 {
+  font-size: 24px;
+}
+
 .container {
   width: 880px;
   /* TB LR */
