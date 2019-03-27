@@ -150,10 +150,12 @@ header .logo {
 .main-content .top-content .text-content {
   width: 410px;
   display: flex;
+  flex-wrap: wrap;
   margin-right: 34px;
 }
 
 .main-content .top-content .text-content:last-child {
+  width: 410px;
   margin-right: 0;
   display: flex;
 }
@@ -165,17 +167,19 @@ header .logo {
 .main-content .bottom-content {
   margin-top: 37px;
   padding: 0 10px;
+  display: flex;
 }
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: flex;
   margin-right: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .main-content .bottom-content .text-content:last-child {
   margin-right: 0;
-  display: flex;
 }
 
 .contact {
