@@ -175,6 +175,7 @@ header .logo {
 
 .main-content .bottom-content .text-content:last-child {
   margin-right: 0;
+  display: flex;
 }
 
 .contact {
