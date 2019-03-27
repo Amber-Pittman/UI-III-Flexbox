@@ -186,6 +186,33 @@ header .logo {
   margin-right: 0;
 }
 
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+}
+
+.services .services-text {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px 0 50px;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid mediumseagreen;
+}
+
+.services-button {
+  display: flex;
+  width: 125px;
+  font-size: 12px;
+}
+
+ul {
+  list-style-type: square;
+}
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
