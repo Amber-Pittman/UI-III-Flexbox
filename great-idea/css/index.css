@@ -186,6 +186,10 @@ header .logo {
   margin-right: 0;
 }
 
+.services-header-img {
+  margin-top: 25px;
+}
+
 .services {
   display: flex;
   flex-wrap: wrap;
@@ -196,18 +200,32 @@ header .logo {
   display: flex;
   flex-wrap: wrap;
   margin: 25px 0 50px;
+  font-weight: 600;
 }
 
 .services-list {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid mediumseagreen;
+  align-items: flex-start;
+  width: 400px;
+  height: 250px;
+  padding: 20px;
+  margin-top: 40px;
+  font-weight: 600;
+  background-color: whitesmoke;
+  border: 1px solid black;
 }
 
 .services-button {
   display: flex;
   width: 125px;
-  font-size: 12px;
+  padding: 10px;
+  font-size: 11px;
+  text-align: center;
+  display: flex;
+  border: 1px solid darkslategray;
+  border-radius: 5px;
+  background-color: white;
 }
 
 ul {
